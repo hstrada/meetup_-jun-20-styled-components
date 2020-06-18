@@ -26,14 +26,7 @@ import { Container, Label } from './styles';
         fontColor: `#fff`
 */
 const FlatButton = (props: Props) => {
-  const {
-    disabled,
-    loading,
-    onPress,
-    text,
-    variant = 'primary',
-    testID = 'button',
-  } = props;
+  const { disabled, loading, onPress, text, variant = 'primary' } = props;
 
   const buttonVariant = disabled ? 'disabled' : variant;
 
@@ -47,11 +40,10 @@ const FlatButton = (props: Props) => {
     <Container
       disabled={disabled}
       onPress={callOnPress}
-      testID={testID}
       variant={buttonVariant}>
       <>
         {loading ? (
-          <ActivityIndicator size="small" testID="loadingIndicator" />
+          <ActivityIndicator size="small" />
         ) : (
           <>
             <Label numberOfLines={1} variant={buttonVariant}>

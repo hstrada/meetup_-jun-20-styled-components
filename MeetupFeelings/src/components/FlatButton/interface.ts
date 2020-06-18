@@ -8,7 +8,6 @@ export type Props = {
   disabled?: boolean;
   loading?: boolean;
   text: string;
-  testID?: string;
   variant?: Variant;
   onPress: (event: GestureResponderEvent) => void;
 };
