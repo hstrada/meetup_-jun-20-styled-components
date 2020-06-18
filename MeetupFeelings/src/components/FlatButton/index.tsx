@@ -9,7 +9,6 @@ import { Container, Label } from './styles';
 /**
     ```
       Example: <FlatButton variant="primary" onPress={onPress} text="Press" />
-      Example With Icon: <FlatButton icon="arrow-left" variant="primary" onPress={onPress} text="Press" />
     ```
     Variant Summary:
 
