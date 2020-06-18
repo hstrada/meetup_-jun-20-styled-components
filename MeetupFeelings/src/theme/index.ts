@@ -1,13 +1,28 @@
 import { DefaultTheme } from 'styled-components';
 
-import colors from './colors';
+import colors, { ColorOptions } from './colors';
 
 declare module 'styled-components' {
   export interface DefaultTheme {
-    colors: typeof colors;
+    colors: ColorOptions;
   }
 }
 
 export const theme: DefaultTheme = {
-  colors,
+  colors: {
+    button: {
+      primary: {
+        background: colors.purple,
+        fontColor: colors.white,
+      },
+      secondary: {
+        background: colors.yellowSubmarine,
+        fontColor: colors.silver,
+      },
+      disabled: {
+        background: colors.grey,
+        fontColor: colors.white,
+      },
+    },
+  },
 };

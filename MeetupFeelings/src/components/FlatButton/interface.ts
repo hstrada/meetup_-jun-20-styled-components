@@ -1,8 +1,18 @@
-export interface Props {
-  text: string;
-  disabled?: boolean;
-}
+import { GestureResponderEvent } from 'react-native';
 
-export interface PropsStyled {
+import { ColorsButtonOptions } from '../../theme/colors';
+
+type Variant = ColorsButtonOptions;
+
+export type Props = {
   disabled?: boolean;
-}
+  loading?: boolean;
+  text: string;
+  testID?: string;
+  variant?: Variant;
+  onPress: (event: GestureResponderEvent) => void;
+};
+
+export type StyledProps = {
+  variant: Variant;
+};

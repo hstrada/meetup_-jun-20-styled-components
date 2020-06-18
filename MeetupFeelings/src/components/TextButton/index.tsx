@@ -9,7 +9,7 @@ const Container = styled.TouchableOpacity<PropsStyled>`
 `;
 
 const Label = styled.Text`
-  color: ${({ theme }) => theme.colors.secondary};
+  color: ${({ theme }) => theme.colors.button.primary.fontColor};
 `;
 
 /**
