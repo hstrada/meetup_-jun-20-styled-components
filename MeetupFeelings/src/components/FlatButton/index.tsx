@@ -24,9 +24,13 @@ import { Container, Label } from './styles';
         backgroundColor: `#ccc`
         fontColor: `#fff`
 */
-const FlatButton = (props: Props) => {
-  const { disabled, loading, onPress, text, variant = 'primary' } = props;
-
+const FlatButton = ({
+  disabled,
+  loading,
+  onPress,
+  text,
+  variant = 'primary',
+}: Props) => {
   const buttonVariant = disabled ? 'disabled' : variant;
 
   const callOnPress = (e: GestureResponderEvent) => {

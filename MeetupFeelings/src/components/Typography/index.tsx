@@ -2,10 +2,16 @@ import React from 'react';
 
 import styled from 'styled-components/native';
 
-const Title = styled.Text``;
+interface Props {
+  bold?: boolean;
+}
+
+const Title = styled.Text<Props>`
+  ${({ bold }) => bold && { 'font-weight': 'bold' }};
+`;
 
 const Typography = () => {
-  return <Title>Hello World</Title>;
+  return <Title bold={true}>Hello World</Title>;
 };
 
 export default Typography;
