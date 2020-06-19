@@ -5,10 +5,12 @@ import styled from 'styled-components/native';
 import { Props, PropsStyled } from './interface';
 
 const Container = styled.TouchableOpacity<PropsStyled>`
-  background-color: ${(props) => (props.disabled ? 'green' : 'blue')};
+  background-color: ${(props) => (props.disabled ? 'green' : '#d3d3d3')};
 `;
 
-const Label = styled.Text``;
+const Label = styled.Text`
+  color: ${({ theme }) => theme.colors.button.primary.fontColor};
+`;
 
 /**
     ```
