@@ -1,6 +1,5 @@
 <p align="center">
-  <img src=".github/Logo.png"/>
-	
+  
   <p align="center">
     Mobile app example project on how to use styled-components with typescript and love.
   </p>
@@ -18,8 +17,6 @@
 ## :rocket: Project Summary
 
 Mobile app example project on how to use styled-components with typescript and love.
-
-> Made with only learning purposes!
  
 ## 👨‍💻️ Technologies Used
 
