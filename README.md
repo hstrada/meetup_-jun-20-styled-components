@@ -11,7 +11,6 @@
 - :rocket: [Project Summary](#rocket-project-summary)
 - 👨‍💻️ [Technologies Used](#%EF%B8%8F-technologies-used)
 - 📦️ [How to install the project](#%EF%B8%8F-how-to-install-the-project)
-- 🤔️ [How can you contribute?](#%EF%B8%8F-how-can-you-contribute)
 - :floppy_disk: [Other _codecafe repositories](#floppy_disk-others-_codecafes-repositories)
  
 ## :rocket: Project Summary
@@ -79,17 +78,6 @@ To clone the project, use the commands bellow:
   # Install and start the project
   ❯ yarn android
 ```
-
----
- 
-## 🤔️ How can you contribute?
-
-1. Create a branch with your feature:
-   - `$ git checkout -b my_feature`
-2. Commit your branch:
-   - `$ git commit -m "feature: My new feature"`
-3. Submit your branch:
-   - `$ git push origin my_feature`
 
 ---
  
