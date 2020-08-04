@@ -42,7 +42,7 @@ To clone the project, use the commands bellow:
 
 ```bash
   # Clone the repository
-  ❯ git clone https://github.com/hstrada/_codecafe-mobile.git
+  ❯ git clone git@github.com:hstrada/meetup_-jun-20-styled-components.git
 
   # Enter directory
   ❯ cd example-styled-components_typescript
